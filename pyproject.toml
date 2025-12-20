@@ -24,7 +24,7 @@ dependencies = [
     "types-requests>=2.32.4.20250913",
 
     # --- Platform-Specific ---
-    "win11toast>=0.36.2",
+    "win11toast>=0.36.2; sys_platform == 'win32'",
 ]
 
 [[tool.uv.index]]
