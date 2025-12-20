@@ -49,7 +49,5 @@ jobs:
           python edit_config.py --kuro-token "${KURO_TOKEN}" --bark-token "${BARK_TOKEN}"
 
       - name: Run sign-in
-        env:
-          KuroBBS_log_level: INFO
         run: |
-          python main.py
+          python main.py --error
