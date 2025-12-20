@@ -1,0 +1,13 @@
+enable: true
+token: ""
+completed: false
+auto_reple_sign: true
+
+game_info:
+  distinct_id: ""
+  devcode: ""
+  wwroleId: 
+  eeeroleId: 
+
+user_info:
+  userId: ""

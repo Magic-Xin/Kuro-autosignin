@@ -20,8 +20,6 @@ kurolog.log
 
 # Configuration files
 *.cfg
-*.yaml
-push.ini
 
 # Data files
 cache
