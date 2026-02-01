@@ -28,6 +28,9 @@
    # 是否自动补签
    auto_reple_sign: true
    
+   # 重试次数（失败后再次尝试的总次数，默认 3）
+   retry_times: 3
+
    # 游戏信息
    game_info:
      # distinct_id 和 devCode 可选，系统会随机生成
@@ -175,6 +178,9 @@
    ```bash
    pip install .
    ```
+> [!IMPORTANT]
+> 如果您需要用到Windows的推送功能，请使用以下命令安装依赖：
+> ```pip install .[windows]```
 
 3. **配置文件**  
    在 `config` 目录下创建或修改 YAML 配置文件（如 `name.yaml`），填写必要的用户信息。
